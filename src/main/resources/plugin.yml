@@ -1,0 +1,7 @@
+name: $name
+version: $version
+main: io.github.lumine1909.LeavesAddons
+api-version: $apiVersion
+description: $description
+softdepend:
+  - AuthMe

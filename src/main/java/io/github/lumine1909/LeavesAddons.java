@@ -3,6 +3,7 @@ package io.github.lumine1909;
 import io.github.lumine1909.config.AddonsConfigHandler;
 import io.github.lumine1909.listener.BotJoinListener;
 import io.github.lumine1909.listener.ShearedWrenchListener;
+import io.github.lumine1909.listener.WitherRosePlaceListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class LeavesAddons extends JavaPlugin {
@@ -16,5 +17,6 @@ public class LeavesAddons extends JavaPlugin {
         config = new AddonsConfigHandler();
         new BotJoinListener();
         new ShearedWrenchListener();
+        new WitherRosePlaceListener();
     }
 }
